@@ -65,7 +65,7 @@ class PointsController {
             latitude,
             longitude,
             city,
-            uf
+            uf,
         }
 
         const insertIds = await trx('points').insert(point);
